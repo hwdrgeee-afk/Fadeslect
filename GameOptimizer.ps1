@@ -31,19 +31,19 @@ if ($key -ne $validKey) {
 function Banner {
     Clear-Host
     Write-Host "=====================================" -ForegroundColor DarkGreen
-    Write-Host "           Fade Luancher  v3        " -ForegroundColor Green
+    Write-Host "               Fadex3D       " -ForegroundColor Green
     Write-Host "=====================================" -ForegroundColor DarkGreen
     Write-Host ""
 }
 
 # ===============================
 function Select-Game {
-    Write-Host "====== SELECT GAME ======" -ForegroundColor Cyan
-    Write-Host "[1] FiveM"
-    Write-Host "[2] PUBG"
-    Write-Host "[3] Valorant"
-    Write-Host "[4] CSGO"
-    Write-Host "[5] Custom"
+    Write-Host "====== SELECT setting ======" -ForegroundColor Cyan
+    Write-Host "[1] Fadx3D"
+    Write-Host "[2] XPLUS"
+    Write-Host "[3] F cri"
+    Write-Host "[4] Auto "
+    Write-Host "[5] Cri 100"
     Write-Host "[0] Back"
 
     $g = Read-Host "Select"
@@ -128,9 +128,9 @@ while ($true) {
 
     Banner
 
-    Write-Host "[1] select game " -ForegroundColor Cyan
-    Write-Host "[2] Network" -ForegroundColor Cyan
-    Write-Host "[3] Registry " -ForegroundColor Cyan
+    Write-Host "[1] select " -ForegroundColor Cyan
+    Write-Host "[2] Network " -ForegroundColor Cyan
+    Write-Host "[3] REG " -ForegroundColor Cyan
     Write-Host "[0] Exit" -ForegroundColor Red
     Write-Host ""
 
